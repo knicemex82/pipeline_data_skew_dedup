@@ -3,7 +3,7 @@ requires = ["setuptools>=61"]
 build-backend = "setuptools.build_meta"
 
 [project]
-name = "knicemex82-mlopsarch_jd485"
+name = "knicemex82-pipeline_data_skew_dedup"
 version = "0.1.0"
 description = "对内容做归一化与分片比对，找出MLOps 平台架构师·流水线的数据倾斜上的重复项并按相似度归并"
 readme = "README.md"
@@ -22,11 +22,11 @@ classifiers = [
 
 [project.urls]
 Homepage = "https://knicemex82.github.io"
-Repository = "https://github.com/knicemex82/mlopsarch_jd485"
-Issues = "https://github.com/knicemex82/mlopsarch_jd485/issues"
+Repository = "https://github.com/knicemex82/pipeline_data_skew_dedup"
+Issues = "https://github.com/knicemex82/pipeline_data_skew_dedup/issues"
 
 [project.scripts]
-mlopsarch_jd485 = "mlopsarch_jd485:main"
+pipeline_data_skew_dedup = "pipeline_data_skew_dedup:main"
 
 [tool.setuptools]
-py-modules = ["mlopsarch_jd485"]
+py-modules = ["pipeline_data_skew_dedup"]

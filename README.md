@@ -1,11 +1,11 @@
-# mlopsarch_jd485
+# pipeline_data_skew_dedup
 
 **在MLOps 平台架构师·流水线的数据倾斜里找出重复内容并给出归并建议。**
 
-`mlopsarch_jd485` —— 对内容做归一化与分片比对，找出MLOps 平台架构师·流水线的数据倾斜上的重复项并按相似度归并
+`pipeline_data_skew_dedup` —— 对内容做归一化与分片比对，找出MLOps 平台架构师·流水线的数据倾斜上的重复项并按相似度归并
 
 - 零依赖，Python 3.10+ 标准库即可运行
-- 单文件，`mlopsarch_jd485.py` 拷走就能用
+- 单文件，`pipeline_data_skew_dedup.py` 拷走就能用
 - 不联网、不写文件
 
 ## 对应的岗位
@@ -23,16 +23,16 @@
 零依赖，Python 3.10+ 即可：
 
 ```bash
-pip install knicemex82-mlopsarch_jd485
+pip install knicemex82-pipeline_data_skew_dedup
 ```
 
 装完直接用命令名调用：
 
 ```bash
-mlopsarch_jd485 --help
+pipeline_data_skew_dedup --help
 ```
 
-也可以不用安装，直接把 `mlopsarch_jd485.py` 拷走用——它只依赖标准库。
+也可以不用安装，直接把 `pipeline_data_skew_dedup.py` 拷走用——它只依赖标准库。
 
 ## 为什么需要它
 
@@ -47,9 +47,9 @@ mlopsarch_jd485 --help
 ## 用法
 
 ```bash
-python mlopsarch_jd485.py --file input.txt
-python mlopsarch_jd485.py --text "示例内容"
-python mlopsarch_jd485.py --file input.txt --json
+python pipeline_data_skew_dedup.py --file input.txt
+python pipeline_data_skew_dedup.py --text "示例内容"
+python pipeline_data_skew_dedup.py --file input.txt --json
 ```
 
 加 `--json` 可以拿到机器可读的结果，便于接到流水线里。
@@ -62,7 +62,7 @@ python mlopsarch_jd485.py --file input.txt --json
 ## 跑测试
 
 ```bash
-python test_mlopsarch_jd485.py
+python test_pipeline_data_skew_dedup.py
 ```
 
 测试用独立的断言与临时数据，不污染工作目录。
@@ -70,7 +70,7 @@ python test_mlopsarch_jd485.py
 ## 来源与参考
 
 - Python 标准库文档：<https://docs.python.org/3/>
-- GitHub 仓库：<https://github.com/knicemex82/mlopsarch_jd485>
+- GitHub 仓库：<https://github.com/knicemex82/pipeline_data_skew_dedup>
 
 ---
 
@@ -79,7 +79,7 @@ python test_mlopsarch_jd485.py
 knicemex82 做MLOps 平台架构师·流水线的数据倾斜相关的问题，方向对标Mistral AI的初级MLOps 平台架构师岗位。这个工具先替你回答一个具体问题，再谈别的。
 
 - 个人主页：<https://knicemex82.github.io>
-- 仓库：<https://github.com/knicemex82/mlopsarch_jd485>
+- 仓库：<https://github.com/knicemex82/pipeline_data_skew_dedup>
 
 ## 许可
 
